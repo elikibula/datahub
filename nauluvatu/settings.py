@@ -88,16 +88,14 @@ WSGI_APPLICATION = 'nauluvatu.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'nauluvatu',
-        'USER': 'postgres',
-        'PASSWORD': 'Romans1212!!',
-        'HOST': 'localhost',
-        'PORT': '5432'
-        
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'datahub',
+        'USER':'root',
+        'PASSWORD':'',
+        'HOST':'localhost',
+        'PORT': '3306',
     }
-    
 }
 
 
